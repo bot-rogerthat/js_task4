@@ -2,14 +2,17 @@
     margin: 0;
     padding: 0;
 }
+
 section {
     display: flex;
     height: 1000px;
 }
+
 h1 {
-    margin-bottom: 10px;   
-    font-size: 24pt; 
+    margin-bottom: 10px;
+    font-size: 24pt;
 }
+
 nav {
     overflow-y: auto;
     width: 30%;
@@ -18,6 +21,7 @@ nav {
     padding: 10px;
     flex-flow: row wrap;
 }
+
 main {
     overflow-y: auto;
     width: 70%;
@@ -26,20 +30,24 @@ main {
     padding: 10px;
     flex-flow: row wrap;
 }
-nav>div {
+
+nav > div {
     padding: 5px;
     margin-bottom: -2px;
-    border: 2px  solid  black;  
+    border: 2px solid black;
 }
-nav>div:hover{
-    background-color: lightblue;    
+
+nav > div:hover {
+    background-color: lightblue;
 }
+
 img {
     width: 30%;
     margin: 10px;
 }
-.clicked{
-    background-color: cornflowerblue;    
+
+.clicked {
+    background-color: cornflowerblue;
 }
 
 
